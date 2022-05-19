@@ -1,0 +1,42 @@
+.header {
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 800px;
+  margin-top: 100px;
+  /* border: 1px solid #343a40;*/
+  border-collapse: collapse;
+}
+
+th,
+td {
+  /* border: 1px solid #343a40; */
+  padding: 10px 24px;
+  text-align: left;
+}
+
+thead tr {
+  background-color: #c1255b;
+  color: #fff;
+}
+thead th {
+  width: 25%;
+}
+
+thead td {
+  cursor: pointer;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}

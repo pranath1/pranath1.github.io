@@ -1,0 +1,130 @@
+section {
+  margin: 32px auto;
+  margin-bottom: 100px;
+}
+header {
+  border-bottom: 4px solid #c2255c;
+  padding-bottom: 16px;
+  opacity: 1 !important;
+  background-color: #fff;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+.btn--options {
+  background-color: #ffa8a8;
+}
+
+.btn--options:hover {
+  background-color: #ff8787;
+}
+
+.btn--options:active,
+.btn--options:focus {
+  background-color: #fa5252;
+  stroke: #000;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #141414;
+}
+
+/* CSS for GRID View */
+.product--grid {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+}
+
+.product--grid .info {
+  background-color: #fff0f6;
+  width: 100%;
+  padding: 8px 0 12px 0;
+}
+
+.product--grid img {
+  width: 100%;
+  opacity: 0.8;
+}
+.product--grid img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.product--grid p,
+.product--grid span {
+  padding: 8px 16px;
+  color: #701535;
+  margin: 0;
+}
+
+.product--grid p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.product--grid span {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* CSS for LIST View */
+.product--list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 16px 32px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+  background-color: #fff0f6;
+}
+
+.product--list img {
+  width: 50%;
+  opacity: 0.8;
+  padding: 16px;
+}
+
+.product--list img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.product--list p,
+.product--list span {
+  padding: 8px 16px;
+  color: #701535;
+}
+.product--list p {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.product--list span {
+  font-size: 32px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+select {
+  border: 1px solid #ffa8a8;
+}
+
+.filter--icon {
+  position: absolute;
+}

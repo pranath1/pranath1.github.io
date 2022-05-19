@@ -1,0 +1,38 @@
+.container {
+  height: 200px;
+  color: #63132f;
+}
+
+.form-control {
+  border: 1px solid #f06595;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(240, 101, 149, 0.25);
+}
+.btn--design {
+  background-color: #f06595;
+  margin: 16px 8px;
+  padding: 12px;
+  color: #212529;
+}
+
+.btn--design:hover {
+  background-color: #f783ac;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.errorText {
+  background-color: #f03d3d;
+  color: #000;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+section {
+  border: 1px solid #f06595;
+  padding: 16px 32px;
+}

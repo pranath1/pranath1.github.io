@@ -1,0 +1,20 @@
+.container {
+  background-color: #ffe3e3;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 16px;
+  color: #63132f;
+  border-radius: 10px;
+}
+
+h5 {
+  font-size: 12px;
+  letter-spacing: 1.09px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 60px;
+  line-height: 1.1;
+}

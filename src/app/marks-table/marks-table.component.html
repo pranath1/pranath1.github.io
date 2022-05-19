@@ -1,0 +1,16 @@
+<section class="container">
+  <table>
+    <thead>
+      <tr>
+        <td class="header" (click)="sort(col)" *ngFor="let col of columns">
+          {{ col }}
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of displayResults">
+        <td *ngFor="let col of columns">{{ row[col] }}</td>
+      </tr>
+    </tbody>
+  </table>
+</section>

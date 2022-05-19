@@ -1,0 +1,7 @@
+.log {
+  height: 100px;
+  max-height: 150px;
+  overflow-y: scroll;
+  color: #63132f;
+  border: 1px solid #ffc9c9;
+}

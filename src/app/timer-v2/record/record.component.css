@@ -1,0 +1,21 @@
+.column {
+  display: flex;
+  align-items: center;
+  margin: 16px 32px;
+  color: #821239;
+  /* justify-content: center; */
+}
+.column div {
+  margin: 16px 32px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1.1px;
+}

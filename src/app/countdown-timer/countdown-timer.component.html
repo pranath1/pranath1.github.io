@@ -1,0 +1,23 @@
+<div class="container timer-app">
+  <div class="row">
+    <div class="col-sm-6">
+      <app-display-timer [timer]="timerValue"></app-display-timer>
+    </div>
+    <div class="col-sm-6">
+      <app-controller
+        (reset)="resetAll($event)"
+        (start)="start($event)"
+        (pause)="pause()"
+        [pausedAt]="pausedValue"
+      ></app-controller>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <app-log [log]="log"></app-log>
+    </div>
+    <div class="col-sm-6">
+      <app-record [sc]="startCounter" [pc]="pauseCounter"></app-record>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<section class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <input
+        type="number"
+        [(ngModel)]="timerValue"
+        min="1"
+        class="form-control"
+      />
+    </div>
+  </div>
+  <p *ngIf="timerValue < 1" class="errorText">
+    Countdown is not possible below 1
+  </p>
+  <div>
+    <button class="btn btn--design" (click)="startOrPause()">
+      Start/Pause
+    </button>
+    <button class="btn btn--design" (click)="resetValues()">Reset</button>
+
+    <p *ngIf="pausedAt > -1">Paused at {{ pausedAt }}</p>
+  </div>
+</section>

@@ -1,0 +1,8 @@
+<div class="root-div" (scroll)="scrollHandler($event)">
+  <div class="dynamic-div" *ngFor="let list of lists; let i = index">
+    <button [id]="list" (click)="buttonClicked(list)" class="btn">
+      Button
+    </button>
+    <span class="label">{{ list }}</span>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Kelly",
+    "standard": 4,
+    "section": "B",
+    "subject1": 59,
+    "subject2": 21,
+    "subject3": 33
+  },
+  {
+    "name": "Jacobs",
+    "standard": 5,
+    "section": "B",
+    "subject1": 91,
+    "subject2": 5,
+    "subject3": 51
+  },
+  {
+    "name": "Brown",
+    "standard": 1,
+    "section": "C",
+    "subject1": 8,
+    "subject2": 72,
+    "subject3": 74
+  },
+  {
+    "name": "Cecilia",
+    "standard": 2,
+    "section": "E",
+    "subject1": 55,
+    "subject2": 58,
+    "subject3": 94
+  },
+  {
+    "name": "Sherry",
+    "standard": 5,
+    "section": "A",
+    "subject1": 57,
+    "subject2": 80,
+    "subject3": 70
+  },
+  {
+    "name": "Beatrice",
+    "standard": 2,
+    "section": "D",
+    "subject1": 46,
+    "subject2": 49,
+    "subject3": 37
+  },
+  {
+    "name": "Singleton",
+    "standard": 4,
+    "section": "E",
+    "subject1": 37,
+    "subject2": 25,
+    "subject3": 2
+  },
+  {
+    "name": "Alford",
+    "standard": 3,
+    "section": "D",
+    "subject1": 88,
+    "subject2": 68,
+    "subject3": 38
+  }
+]
